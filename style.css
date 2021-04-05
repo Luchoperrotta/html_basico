@@ -1,0 +1,115 @@
+body{
+  	justify-content: center;
+	background-image:url('images/fondoP.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; //para que el fondo quede fijo y se mueva solo la pagina
+}
+
+
+#todo{
+	background-color: rgb(61, 177, 196,0.3);
+	width: width auto; /* el auto es para que se adapte el contenido a la pantalla*/
+	height: 900px; 
+}
+#titulo-foto{
+	
+	width: width; /* el auto es para que se adapte el contenido a la pantalla*/
+	height: 20vh; 
+	margin: 1vw;
+
+}
+#titulo{
+	/*vw % del ancho de la pantalla  */
+	/*vh % del largo de la pantalla  */
+	
+	width: 70vw; /* el auto es para que se adapte el contenido a la pantalla*/
+	height: 17vh; 
+	float:left;
+	margin-top: 1vw;
+	margin-left: 1.2vw;
+	margin-bottom: 1vw;
+}
+
+#foto{
+	
+	width: 20vw;
+	height: 17vh;
+	margin-top: 1vw;
+	margin-right: 1.2vw;
+	margin-bottom: 1vw;
+	float:right;
+
+}
+
+/* --------------------------*/
+
+#barra_menu{
+	
+	width: width;
+	height: 3vh;
+	margin: 1vw;
+
+}
+
+#bio{
+	
+	width: 10vw;
+	height: 2vh;
+	margin: 1vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.1vw;
+	float:left;
+
+
+}
+
+#contacto{
+	
+	width: 10vw;
+	height: 2vh;
+	margin: 1vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.1vw;
+	float:left;
+}
+
+#cv{
+	
+	width: 10vw;
+	height: 2vh;
+	margin: 1vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.1vw;
+	float:left;
+}
+
+#cuerpo{
+	background-color: rgb(61, 177, 196,0.6);
+	width: width;
+	height: 70vh;
+	margin: 1vw;
+
+}
+
+#foto{
+	text-align: center; 
+}
+
+.links{
+	color: red;
+	font-size: 15px;
+	margin-top: 0px;
+
+}
+.tituloP{
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+
+}
+
+.viñetas{
+	font-size: 25px;
+
+}
